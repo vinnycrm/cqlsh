@@ -1,7 +1,8 @@
 # docker-cqlsh
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/nuvo/docker-cqlsh.svg)](https://hub.docker.com/r/nuvo/docker-cqlsh/)
-[![license](https://img.shields.io/github/license/nuvo/docker-cqlsh.svg)](https://github.com/nuvo/docker-cqlsh/blob/master/LICENSE)
+[![Docker Pulls](https://img.shields.io/docker/pulls/vinnycrm/cqlsh.svg)](https://hub.docker.com/r/vinnycrm/cqlsh/)
+
+[![license](https://img.shields.io/github/license/vinnycrm/cqlsh.svg)](https://github.com/vinnycrm/cqlsh/blob/master/LICENSE)
 
 Cqlsh in a container
 
@@ -64,7 +65,7 @@ spec:
     spec:
       containers:
         - name: cqlsh
-          image: nuvo/docker-cqlsh
+          image: vinnycrm/docker-cqlsh
           env:
             - name: CQLSH_HOST
               value: cassandra-svc
